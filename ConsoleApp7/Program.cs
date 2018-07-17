@@ -10,6 +10,9 @@ namespace ConsoleApp7
             Flight.Input();
             Console.Clear();
             Flight.display();
+            Flight.BookingReturnFlight();
+            
+            
             
             Console.ReadKey();
         }
